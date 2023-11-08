@@ -10,7 +10,8 @@ import javax.swing.JPanel;
 
 
 public class PanelCalculator extends JPanel {
-
+	private static final long serialVersionUID = 4913717068201472086L;
+	
 	private JPanel panelButtons;
 	private JButton screen;
 	private boolean check_0 = true;
